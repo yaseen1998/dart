@@ -17,4 +17,5 @@ void main() {
   print(c3);
   print(c4);
   print(a1);
+  var d1 = a1.singleWhere( (x) => x % 2 == 0);
 }
